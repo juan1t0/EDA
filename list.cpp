@@ -20,10 +20,26 @@ struct lista{
 		while(**th != 0){
 			if(**th == vv)
 				return true;
-			th=*th.
+			th=*th.next;
 		}
 		return false;
 	}
+	void insertar(T a){
+		nodo<T>*** ptr=&head;
+		boll a= buscar(a,ptr);
+		if(a== true)
+			;
+		else
+			//crear;
+	}
+	void borrar(T a){
+		nodo<T>*** ptr=&head;
+		boll a= buscar(a,ptr);
+		if(a== true)
+			//borrar;
+		else
+			;
+	}	
 };
 int main(int argc, char *argv[]) {
 	
